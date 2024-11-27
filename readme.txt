@@ -1,4 +1,7 @@
+
 File attached: "prefixevaluationproject.hs" (in Haskell (HS))
+
+Created from September 2024 to October 2024.
 
 This project evaluates prefix notation expressions. The program will prompt the user to enter the prefix notation expression they want to evaluate (space-separated) and evaluate it. Each result includes an ID number, which references the history index number by the order it was printed on the console. If we want to reuse a result for another Polish expression, input the operator with "$n" (n is the index number). For example: + * 2 $1 $2. $1 refers to the result of the first expression. $2 refers to the result of the second expression.
 
